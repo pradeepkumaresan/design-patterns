@@ -1,0 +1,8 @@
+1. handles complex constructors.
+2. large no.of params and setters.
+3. force immutability after construction.
+4. ex. StringBuilder, DocumentBuilder, LocaleBuilder, etc.
+5. Helps overcoming telescoping constructor.
+6. Often written as the static inner class it is building.
+7. Negates the need for exposing setters.
+8.
