@@ -1,0 +1,8 @@
+1. to avoid costly creation.
+2. to avoid subclassing.
+3. don't use new keyword.
+4. often utilises interface.
+5. ex. Object.clone().
+6. Use copy constructor.
+7. Guarantee unique instance every time.
+8.
