@@ -1,4 +1,4 @@
-package com.pradeep.creational;
+package com.pradeep.creational.singleton;
 
 /**
  * not thread safe and eager loading.

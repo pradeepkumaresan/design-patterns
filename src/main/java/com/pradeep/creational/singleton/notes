@@ -3,4 +3,4 @@
    readers (other threads in particular) after a write operation completes on it.
    Without volatile, readers could see some non-updated value.
    https://stackoverflow.com/questions/106591/what-is-the-volatile-keyword-useful-for
-3.
+3. If a singleton uses a method param, it is factory.
