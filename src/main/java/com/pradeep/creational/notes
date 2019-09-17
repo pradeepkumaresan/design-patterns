@@ -1,0 +1,6 @@
+1. Runtime - System.getRuntime() - is a singleton.
+2. Basically, the value of a volatile field becomes visible to all
+   readers (other threads in particular) after a write operation completes on it.
+   Without volatile, readers could see some non-updated value.
+   https://stackoverflow.com/questions/106591/what-is-the-volatile-keyword-useful-for
+3.
