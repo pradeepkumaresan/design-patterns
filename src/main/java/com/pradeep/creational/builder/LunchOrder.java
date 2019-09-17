@@ -19,7 +19,7 @@ public class LunchOrder {
     /**
      * can be an external class as well.
      */
-    public static class Builder {
+    static class Builder {
         private String bread;
         private String condiments;
         private String dressing;
@@ -40,17 +40,17 @@ public class LunchOrder {
             return this;
         }
 
-        public Builder dressing(String dressing){
+        Builder dressing(String dressing){
             this.dressing = dressing;
             return this;
         }
 
-        public Builder meat(String meat){
+        Builder meat(String meat){
             this.meat = meat;
             return this;
         }
 
-        public LunchOrder build(){
+        LunchOrder build(){
             return new LunchOrder(this);
         }
     }
