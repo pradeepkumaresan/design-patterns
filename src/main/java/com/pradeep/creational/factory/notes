@@ -1,0 +1,5 @@
+1. Don't expose instantiation. Defer it to subclass.
+2. common interface.
+3. ex: Calender, ResourceBundle, NumberFormat
+4. Opposite of singleton.
+
