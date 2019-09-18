@@ -1,0 +1,4 @@
+1. factory of factories.
+2. Common interface and defer creation to subclasses.
+3. ex. DocumentBuilder and mainly in frameworks.
+4.
